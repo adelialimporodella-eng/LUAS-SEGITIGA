@@ -1,17 +1,17 @@
-using System;
+menggunakan Sistem;
 
-class Program
+Kelas Program
 {
-    static void Main()
+    statis Kosong Utama()
     {
-        Console.Write("Masukkan alas: ");
-        double alas = Convert.ToDouble(Console.ReadLine());
+        Konsol.Tulis("Masukan alas: ");
+        ganda sayangnya = Konversi.Ke Ganda(konsol.Garis Baca();
 
-        Console.Write("Masukkan tinggi: ");
-        double tinggi = Convert.ToDouble(Console.ReadLine());
+        Konsol.Tulis("Masukan tinggi: ");
+        ganda Tinggi = Konversi.Ke Ganda(Konsol.Garis Baca());
 
-        double luas = 0.5 * alas * tinggi;
+        ganda luas =0.5 * sayangnya * tinggi;
 
-        Console.WriteLine("Luas segitiga adalah: " + luas);
+        Konsol.Garis Tulis("Luas segitiga adalah: " + luas);
     }
 }
