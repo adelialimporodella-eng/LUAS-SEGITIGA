@@ -1,17 +1,17 @@
-import java.util.Scanner;
+inpor jawa..Bermanfaatpemindai;
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+publik kelas utama {
+    publik statis kosong utama(string[] Args) {
+        pemindai masukan = baru Pemindai(Sistem.dalam) ;
 
-        System.out.print("Masukkan alas: ");
-        double alas = input.nextDouble();
+        Sistem..keluarCetak("Masukkan alas: ");
+        ganda Sayangnya = masukan.berikutnyaGanda();
 
-        System.out.print("Masukkan tinggi: ");
-        double tinggi = input.nextDouble();
+        Sistem.KeluarCetak("Masukan tinggi: ");
+        ganda tinggi =masukan.berikutnyaGanda();
 
-        double luas = 0.5 * alas * tinggi;
+        ganda luas =0.5 * sayangnya * tinggi;
 
-        System.out.println("Luas segitiga adalah: " + luas);
+        Sistem.Keluar.Cetak("Luas segitiga adalah: " + luas);
     }
 }
