@@ -1,18 +1,12 @@
-Imports System
+Private Sub cmdHitung_Click()
+    Dim alas As Double
+    Dim tinggi As Double
 
-Module Program
-    Sub Main()
-        Dim alas As Double
-        Dim tinggi As Double
+    alas = Val(txtAlas.Text)
+    tinggi = Val(txtTinggi.Text)
 
-        Console.Write("Masukkan alas: ")
-        alas = Convert.ToDouble(Console.ReadLine())
+    Dim luas As Double
+    luas = 0.5 * alas * tinggi
 
-        Console.Write("Masukkan tinggi: ")
-        tinggi = Convert.ToDouble(Console.ReadLine())
-
-        Dim luas As Double = 0.5 * alas * tinggi
-
-        Console.WriteLine("Luas segitiga adalah: " & luas)
-    End Sub
-End Module
+    lblHasil.Caption = "Luas Segitiga = " & luas
+End Sub
